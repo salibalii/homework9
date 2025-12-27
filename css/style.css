@@ -1,0 +1,150 @@
+body {
+    font-family: Kanit, sans-serif;
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+header {
+    background-color: #FA793C;
+    padding: 6px 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_link {
+    display: flex;
+    column-gap: 7px;
+}
+
+span {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.nav_header {
+    display: flex;
+    column-gap: 36px;
+}
+
+.nav_list {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+/* section */
+
+.section1 {
+    height: 550px;
+    background-image: url(../images/cover\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 32px;
+}
+
+h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+button {
+    width: 243px;
+    height: 72px;
+    opacity: 1;
+    border-radius: 8px;
+    background-color: #FA793C;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+/* section */
+.section2 {
+    background-color: #000000;
+    padding: 72px 82px;
+}
+
+h3 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+/* footer */
+footer {
+    background-color: #FA793C;
+    padding: 32px 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.footer_ul {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footer_links {
+    display: flex;
+    column-gap: 24px;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.address_links {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
